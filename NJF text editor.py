@@ -516,7 +516,7 @@ def hide_statusbar():
         show_statusbar=False
     else:
         status_bar.pack(side=tk.BOTTOM)
-        show_statusbar=True    
+        show_statusbar=True
 
 
 
