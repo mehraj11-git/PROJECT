@@ -1,4 +1,5 @@
-Hello! Everyone
+Hello Everyone!
+
 This is my first project—a text editor. While it was initially challenging, I began to enjoy it more as I progressed
 ### **How I Started My Text Editor Project**
 
