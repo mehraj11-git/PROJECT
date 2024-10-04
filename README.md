@@ -86,6 +86,7 @@ Each item in the main menu comes with specific functionality:
 **End of the Main Menu Functionality**
 
 ----STEPONE----MAIN MENU--------
+
 In this first step, we won't be using the `grid` or `pack` methods to create the menu. Instead, we'll use the `config` method. 
 
 We'll start by creating the "File" menu. While setting it up, we will use the `tearoff` option, as we don't want the "File" menu commands to be detachable, so we'll set `tearoff=False`.
