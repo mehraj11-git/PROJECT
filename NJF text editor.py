@@ -18,7 +18,7 @@ main_app.wm_iconbitmap('icon.ico')
 
 
 # in this first step-1 we donot use the grid or pack method while we create the menu instead we use the config method
-# first we make the menu for the file and we give the tear value
+# first we make the menu for the file and we give the tear value and other value
 # bcz we dont want to tear off the file commands and use ,hence we give false value 1
 
 # now we have to cascade it,if we donot do that then it will not showed #2
