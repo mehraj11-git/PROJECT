@@ -30,10 +30,10 @@ main_app.wm_iconbitmap('icon.ico')
 # now gives the command for this icons #4
 # in command code first we have to give the label and a image  
 # after that we use the command=tk.left ,bcz of this code the icons will not overlap with each other
-# we use accelerator for short cut key
+# we use accelerator for short cut key 
 
 # we followed the same code for edit as we used for file
-# now, in view we gonna add two drop down commands 
+# now, in view we will gonna add two drop down commands 
 # ---tool bar---
 # ---status bar---
 
