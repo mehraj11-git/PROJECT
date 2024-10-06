@@ -93,6 +93,11 @@ We'll start by creating the "File" menu. While setting it up, we will use the `t
 
 After creating the menu, we need to add it to the main menu using the `cascade` method. If we don't do this, the "File" menu won't be displayed. The `cascade` method requires a `label` for the menu (like "File") and the menu details that specify what commands it contains.
 
+Next, we need to use the `cascade` method to display the menu. If we don't apply this step, the menu won't be visible. 
+
+In the `cascade` method, we must provide a `label` (such as "File") to name the menu, and also link it to the menu object we created earlier, which defines the menu's contents and behavior. 
+This is essential for the menu to appear in the interface.
+
 
 
 
