@@ -98,6 +98,9 @@ Next, we need to use the `cascade` method to display the menu. If we don't apply
 In the `cascade` method, we must provide a `label` (such as "File") to name the menu, and also link it to the menu object we created earlier, which defines the menu's contents and behavior. 
 This is essential for the menu to appear in the interface.
 
+Now, we need to add commands for the "File," "Edit," "View," and "Color Theme" menus. 
+
+For these dropdown commands, we will use icons, so the first step is to write the code to include the icons.
 
 
 
