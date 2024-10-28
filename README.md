@@ -102,8 +102,18 @@ Now, we need to add commands for the "File," "Edit," "View," and "Color Theme" m
 
 For these dropdown commands, we will use icons, so the first step is to write the code to include the icons.
 
+Next, we will define the commands for these icons. 
 
+In the command code, we start by specifying the `label` and the associated `image`. 
+Following that, we use `command=tk.LEFT` to ensure that the icons do not overlap with one another.
+Additionally, we will implement an accelerator to assign shortcut keys for easy access to these commands.
 
-   
+We will apply the same code structure for the "Edit" menu as we did for the "File" menu. 
 
+For the "View" menu, we will add two dropdown commands:  
+- **Toolbar**  
+- **Status Bar**  
+We will create icons for the "View" menu, but we'll also include check buttons.
+This allows the user to select or deselect options.
+similar to how users can choose whether or not to use navigation buttons on their mobile phones.
 
